@@ -44,3 +44,8 @@ function renderAvatar(user) {
         $('.text-avatar').html(first).show()
     }
 };
+// 激活文章列表的左侧菜单
+function activeArtList() {
+    $('.layui-this').removeClass('layui-this')
+    $('#art_list').addClass('layui-this')
+}
